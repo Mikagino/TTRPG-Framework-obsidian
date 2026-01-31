@@ -1,0 +1,13 @@
+
+# Workspace files
+TTRPG-Framework/.obsidian/workspace.json
+TTRPG-Framework/.obsidian/workspace-mobile.json
+
+# OS settings and caches
+TTRPG-Framework/.trash/
+TTRPG-Framework/.DS_Store
+
+
+# Temporary files
+*.md~
+*.log

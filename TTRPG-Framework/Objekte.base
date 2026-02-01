@@ -1,0 +1,97 @@
+filters:
+  and:
+    - file.inFolder("Waffen")
+formulas:
+  Schadensauswertung: |-
+    [
+      formula.Schadensbereich,
+      ",",
+      (
+        "Ø" + formula["Durchschnittlicher Schaden"].toString()
+      )
+    ]
+  Durchschnittlicher Schaden: |-
+    if(Schaden.contains("D"),
+      (
+        if(Schaden.split("D")[0] == "",
+          1,
+          number(Schaden.split("D")[0])
+        ) * (
+          number(Schaden.split("D")[1].split(" ")[0]) / 2 + .5
+        ) + if(Schaden.split("D")[1].split(" ")[1] == "+",
+          number(Schaden.split("D")[1].split(" ")[2]),
+          if(Schaden.split("D")[1].split(" ")[1] == "-",
+            -number(Schaden.split("D")[1].split(" ")[2]),
+            0
+          )
+        )
+      ),
+      number(Schaden)
+    )
+  Schadensbereich: |-
+    if(Schaden.contains("D"),
+      (
+        (
+          if(Schaden.split("D")[0] == "",
+            1,
+            number(Schaden.split("D")[0])
+          ) + (
+            if(Schaden.split("D")[1].split(" ")[1] == "+",
+              number(Schaden.split("D")[1].split(" ")[2]),
+            if(Schaden.split("D")[1].split(" ")[1] == "-",
+              -number(Schaden.split("D")[1].split(" ")[2]),
+              0
+            ))
+          )
+        ).toString() + (
+          "-"
+        ) + (
+          if(Schaden.split("D")[0] == "",
+            1,
+            number(Schaden.split("D")[0])
+          ) * (
+            number(Schaden.split("D")[1].split(" ")[0])
+          ) + (
+            if(Schaden.split("D")[1].split(" ")[1] == "+",
+              number(Schaden.split("D")[1].split(" ")[2]),
+            if(Schaden.split("D")[1].split(" ")[1] == "-",
+              -number(Schaden.split("D")[1].split(" ")[2]),
+              0
+            ))
+          )
+        ).toString()
+      ),
+      number(Schaden)
+    )
+properties:
+  formula.Durchschnittlicher Schaden:
+    displayName: Durchschnittlicher Schaden
+  file.name:
+    displayName: Name
+  formula.Schadensauswertung:
+    displayName: Schadensauswertung
+views:
+  - type: table
+    name: Waffen
+    groupBy:
+      property: Gattung
+      direction: ASC
+    order:
+      - file.name
+      - Attribut
+      - Schaden
+      - formula.Schadensauswertung
+      - Beschreibung
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: formula.Durchschnittlicher Schaden
+        direction: ASC
+      - property: formula.Schadensbereich
+        direction: ASC
+    columnSize:
+      file.name: 173
+      note.Attribut: 113
+      note.Schaden: 107
+      formula.Schadensauswertung: 176
+      formula.Durchschnittlicher Schaden: 167

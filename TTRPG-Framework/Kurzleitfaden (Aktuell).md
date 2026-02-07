@@ -61,14 +61,14 @@ Mehrere Eigenschaftstest auf verschiedene Eigenschaften, die sich gegenseitig au
 ## Duell
 Mehrere Entitäten machen die gleichen Tests, wer höher ist, gewinnt (bei Gleichstand die höhere Eigenschaft, sonst unentschieden).
 ## Aufwändige Tests
-Mehrere Eigenschaftstests mit bestimmtem Aufwand, jeder Wurf dauert eine Zeit-Einheit (1 Einheit = ~5 Aufwand = 30 Minuten). Differenzen jedes Wurfs aufsummiert >= Aufwand à geschafft.
-Für Würfe in speziellen Gebieten bekommt man alle Würfe der verschiedenen Fertigkeiten, die in diese Richtung gehen als Boni/Mali.
+Mehrere Eigenschaftstests mit bestimmtem Aufwand, jeder Wurf dauert eine Zeit-Einheit (1 Einheit = ~5 Aufwand = 30 Minuten). Differenzen jedes Wurfs aufsummiert >= Aufwand à geschafft. Je nach Stufe steigen Schwierigkeit und Aufwand, können aber auch je nach Aufgabe angepasst werden.
+Bsp.: Eine Angel zu bauen ist einfach, also Schwierigkeit 20 und Aufwand 15. Im Gegensatz dazu dauert das Stricken eines Hemds seine Zeit, ist aber auch nicht sonderlich schwer, deswegen Schwierigkeit 20 und Aufwand 30.
 
-| Stufe               | Bonus | Schwierigkeit (25+5x) | Aufwand  |
-| ------------------- | ----- | --------------------- | -------- |
-| Anfänger (A)        | D4    | 25                    | 15       |
-| Fortgeschritten (F) | D8    | 30                    | 30       |
-| Experte (X)         | D12   | 35                    | 45       |
+| Stufe               | Schwierigkeit (25+5x) | Aufwand |
+| ------------------- | --------------------- | ------- |
+| Anfänger (A)        | 25                    | 15      |
+| Fortgeschritten (F) | 30                    | 30      |
+| Experte (X)         | 35                    | 45      |
 ## Schwierigkeit
 Der Test muss größer oder gleich dieser Zahl sein, um zu gelingen.
 
@@ -110,3 +110,21 @@ WI-->GE;
 GE-->AG;
 AG-->ST;
 ```
+---
+# Fertigkeiten
+Besonderes Wissen und Können wird mit Fertigkeiten gelernt, Beispiele hierfür sind:
+- Handwerk
+- Lesen
+- Magie
+Würfe, die in diese Richtungen gehen sind generell schwerer (Schwierigkeit 25-40) und können somit teilweise nur geschafft werden, wenn man es lernt. Fertigkeiten werden in die 3 Stufen Anfänger (A), Fortgeschritten (F) und Experte (X) gemessen und der Spieler erhält einen Würfel als Bonus, der auf Würfe addiert wird.
+
+| Stufe               | Bonus | Schwierigkeit (25+5x) | Aufwand |
+| ------------------- | ----- | --------------------- | ------- |
+| Anfänger (A)        | D4    | 25                    | 15      |
+| Fortgeschritten (F) | D8    | 30                    | 30      |
+| Experte (X)         | D12   | 35                    | 45      |
+## Spezifizierungen
+Spezifizierungen von Fertigkeiten können auch gelernt werden und somit erhält der Spieler bei Checks, die Grundlagen und Spezifizierung verwenden alle Würfel dieser Fertigkeiten.
+*Bsp.:* Faruk lernt Magie als Fertigkeit bis Fortgeschritten, erhält also einen D8 als Bonus. Danach lernt er Kapios auf Anfänger, erhält also einen D4 als Bonus. Somit erhält er beim Zaubern von Kapios den D8 für Grundlagen Magie **und** den D4 für die Spezifizierung Kapios.
+## Aufleveln von Fertigkeiten
+Das Aufleveln oder grundlegende Lernen einer Fertigkeit funktioniert, indem man von Büchern oder Lehrmeistern lernt. Lehrmeister lehren schneller, aber müssen eine Stufe über der lehrenden sein. 

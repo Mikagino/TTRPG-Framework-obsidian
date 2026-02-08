@@ -31,7 +31,9 @@ Mehrere Entitäten machen die gleichen Tests, wer höher ist, gewinnt (bei Gleic
 ## Aufwändige Tests
 
 Mehrere Eigenschaftstests mit bestimmtem Aufwand, jeder Wurf dauert eine Zeit-Einheit (1 Einheit = ~5 Aufwand = 30 Minuten). Differenzen jedes Wurfs aufsummiert >= Aufwand à geschafft. Je nach Stufe steigen Schwierigkeit und Aufwand, können aber auch je nach Aufgabe angepasst werden.
-Bsp.: Eine Angel zu bauen ist einfach, also Schwierigkeit 20 und Aufwand 15. Im Gegensatz dazu dauert das Stricken eines Hemds seine Zeit, ist aber auch nicht sonderlich schwer, deswegen Schwierigkeit 20 und Aufwand 30.
+
+>[!example]- Beispiel
+>Eine Angel zu bauen ist einfach, also Schwierigkeit 20 und Aufwand 15. Im Gegensatz dazu dauert das Stricken eines Hemds seine Zeit, ist aber auch nicht sonderlich schwer, deswegen Schwierigkeit 20 und Aufwand 30.
 
 | Stufe               | Schwierigkeit (25+5x) | Aufwand |
 | ------------------- | --------------------- | ------- |

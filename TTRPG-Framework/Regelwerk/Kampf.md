@@ -1,5 +1,5 @@
 
-- Jeder hat 3 Ak pro Runde
+- Jeder hat 3 [[Würfe#Aktion (Ak)|Ak]] pro Runde
 - Initiative "randomized" (wer zuerst angreift, greift zuerst an :))
 
 ## Standard-Aktionen

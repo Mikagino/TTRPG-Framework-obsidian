@@ -1,0 +1,2 @@
+- Verschiedene Arten von Initiative: https://knightattheopera.blogspot.com/2024/06/every-initiative-method.html
+- PnP Obsidian Vault reference: https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Plugin+Tutorials/Obsidian+Leaflet

@@ -22,6 +22,9 @@ Wie viel weißt du?
 Wie gut kannst du mit Lebewesen umgehen?
 #### Lebenspunkte (LP)
 Wie gut ist deine Verfassung?
+#### Konzentration (KN)
+Wie gut kannst du dich auf eine Aufgabe konzentrieren?
+(Vorschlag für geistige Eigenschaft 🙂)
 
 ---
 # Würfe

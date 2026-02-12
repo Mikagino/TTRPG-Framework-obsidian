@@ -26,6 +26,60 @@ Wie gut ist deine Verfassung?
 Wie gut kannst du dich auf eine Aufgabe konzentrieren?
 (Vorschlag für geistige Eigenschaft 🙂)
 
+## Eigenschaftsvorschlag :)
+
+### Stärke
+Körperlich
+
+- Stärke
+- Kraft
+- Sprungkraft
+- Tragelast
+
+### Geschick
+Körperlich
+
+- Fingerfertigkeit
+- Agilität
+- Geschwindigkeit
+- Heimlichkeit
+
+### Konstitution
+Körperlich
+
+- Resistenz
+- Trefferpunkte
+- Ausdauer
+- Genesung
+
+### Scharfsinn
+Geistig
+
+- Intelligenz
+- Wahrnehmung
+- Nachforschungen
+- Konzentration
+- Innere Ruhe
+- Zusammenhänge erkennen
+- Rätsel lösen
+
+### Wissen
+Geistig
+
+- Geschichte
+- Natur
+- Pflanzen
+- Tiere
+- Heilkunde
+
+### Charisma
+Geistig
+
+- Auftreten
+- Täuschen
+- Überzeugen
+- Verhandeln
+
 ---
 # Würfe
 ## <font color="#c00000">Deckung</font>

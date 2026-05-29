@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Waffen")
+    - file.inFolder("TTRPG-Framework/Bases/Waffen")
 formulas:
   Schadensauswertung: |-
     [
@@ -70,6 +70,8 @@ properties:
     displayName: Name
   formula.Schadensauswertung:
     displayName: Schadensauswertung
+  note.Attribut:
+    displayName: Eigenschaft
 views:
   - type: table
     name: Waffen
@@ -80,10 +82,10 @@ views:
       - file.name
       - Attribut
       - Schaden
-      - formula.Schadensauswertung
       - Beschreibung
+      - formula.Schadensauswertung
     sort:
-      - property: file.name
+      - property: Attribut
         direction: ASC
       - property: formula.Durchschnittlicher Schaden
         direction: ASC
@@ -93,5 +95,4 @@ views:
       file.name: 173
       note.Attribut: 113
       note.Schaden: 107
-      formula.Schadensauswertung: 176
-      formula.Durchschnittlicher Schaden: 167
+      note.Beschreibung: 407

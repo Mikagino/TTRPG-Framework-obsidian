@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.inFolder("TTRPG-Framework/Bases/Skills")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Eigenschaft
+      - Kosten
+      - Beschreibung
+    sort:
+      - property: Eigenschaft
+        direction: ASC
+      - property: file.name
+        direction: ASC

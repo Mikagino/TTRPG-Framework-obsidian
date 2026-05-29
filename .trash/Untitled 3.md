@@ -1,0 +1,5 @@
+---
+Eigenschaft:
+Kosten:
+Beschreibung:
+---

@@ -5,6 +5,7 @@
 ---
 # Charakter
 ## <font color="#c00000">Eigenschaften</font>
+=> Elegante eigenschaften, jede eigenschaft ist nicht nur zum Rollen, sondern übernimmt mehrere Rollen im Spiel (pun intended xD)
 #### Agilität (AG) $->$ ehem. AG+GE
 Wie gut kannst du dich selbst körperlich bewegen?
 :LiArrowBigRightDash: Bewegung BW
@@ -18,7 +19,8 @@ Wie ist deine mentale Stärke?
 :LiArrowBigRightDash: Todesschwelle (ab wann stirbt dein Charakter)
 #### Wissen (WI)
 Wie viel weißt du?
-#### Interaktion (IN) $->$ ehem. CH
+:LiArrowBigRightDash: Todesschwelle (ab wann stirbt dein Charakter)
+#### Sozial (Sozial) $->$ ehem. CH
 Wie gut kannst du mit Lebewesen umgehen?
 #### Lebenspunkte (LP)
 Wie gut ist deine Verfassung?
@@ -88,12 +90,12 @@ Geistig
 Mehrere Eigenschaftstests mit bestimmtem Aufwand, jeder Wurf dauert eine Zeit-Einheit (1 Einheit = ~5 Aufwand = 30 Minuten). Differenzen jedes Wurfs aufsummiert >= Aufwand à geschafft. <font color="#c00000">Wenn x über dem Restaufwand geworfen wird, gilt nur ein Bruchteil der Einheit (Aufwandsbonus).</font>
 Für Würfe in speziellen Gebieten bekommt man alle Würfe der verschiedenen Fertigkeiten, die in diese Richtung gehen als Boni/Mali.
 
-| Stufe               | Bonus | Schwierigkeit (25+5x) | Aufwand <font color="#c00000">(15+15x)</font> |
-| ------------------- | ----- | --------------------- | --------------------------------------------- |
-| <font color="#c00000">Unwissen (U)        |       | 20         </font>           | ?                                             |
-| Anfänger (A)        | D4    | 25                    | 15                                            |
-| Fortgeschritten (F) | D8    | 30                    | 30                                            |
-| Experte (X)         | D12   | 35                    | 45                                            |
+| Stufe                              | Bonus   | Schwierigkeit (25+5x) | Aufwand <font color="#c00000">(15+15x)</font> |
+| ---------------------------------- | ------- | --------------------- | --------------------------------------------- |
+| <font color="#c00000">Unwissen (U) |         | 20         </font>    | ?                                             |
+| Anfänger (A)                       | ==D6==  | 25                    | 15                                            |
+| Fortgeschritten (F)                | ==D10== | 30                    | 30                                            |
+| Experte (X)                        | ==D20== | 35                    | 45                                            |
 ## <font color="#c00000">Kampfwahrnehmung (basierend auf WN)</font>
 In einem Kampf muss die Wahrnehmung des anderen übertroffen werden, um zu treffen
 
@@ -113,6 +115,8 @@ Größen werden in folgende Kategorien aufgeteilt:
 Entsprechend der Differenz zur Stufe des Ziels erhält man $3*Differenz$ Bonus/Malus (Bsp.: Mensch zu Troll sind 2 Stufen, also ein Bonus von $3*2=6$)
 ## <font color="#c00000">Hinterhalt</font>
 Aus dem Hinterhalt anzugreifen senkt die Schwierigkeit von Angriffen um 5
+## <font color="#c00000">Kritischer Wurf</font>
+Erhöht/Senkt einmalig den Wissenswürfel um eine Stufe (nicht stapelnd)
 
 ---
 # Bewegung

@@ -5,30 +5,32 @@
 ---
 # Charakter
 ## <font color="#c00000">Eigenschaften</font>
-=> Elegante eigenschaften, jede eigenschaft ist nicht nur zum Rollen, sondern übernimmt mehrere Rollen im Spiel (pun intended xD)
-#### Agilität (AG) $->$ ehem. AG+GE
-Wie gut kannst du dich selbst körperlich bewegen?
-:LiArrowBigRightDash: Bewegung BW
-#### Stärke (ST)
-Wie gut kannst du anderes bewegen?
-#### Wahrnehmung (WN)
-Wie gut sind deine Sinne?
-:LiArrowBigRightDash: Schwierigkeit (wie schwer wird Ziel getroffen)
-#### Willenskraft (WK) $->$ ehem. GE
-Wie ist deine mentale Stärke?
-:LiArrowBigRightDash: Todesschwelle (ab wann stirbt dein Charakter)
-#### Wissen (WI)
-Wie viel weißt du?
-:LiArrowBigRightDash: Todesschwelle (ab wann stirbt dein Charakter)
-#### Sozial (Sozial) $->$ ehem. CH
-Wie gut kannst du mit Lebewesen umgehen?
-#### Lebenspunkte (LP)
-Wie gut ist deine Verfassung?
+=> Elegante eigenschaften, jede eigenschaft ist nicht nur zum Rollen, sondern übernimmt mehrere Rollen im Spiel (pun intended xD). Die einzelnen Eigenschaften haben eine passiv-defensive (DEF) oder passiv-offensiv (OFF) Rolle UND eine roleplay (RP) Rolle.
+
+- **OFF:** 1 von 3
+- **DEF:** 3 von 3
+- **RP:** 6 von 6
+
+| Körperliche | Kurz | Beschreibung                                      | Weitere Rollen                         |
+| ----------- | ---- | ------------------------------------------------- | -------------------------------------- |
+| Geschick    | GE   | Wie gut kannst du dich selbst körperlich bewegen? | Bewegung (DEF), Fingerfertigkeit (RP)  |
+| Stärke      | ST   | Wie gut kannst du anderes bewegen?                | Waffenloser Kampf (OFF), Traglast (RP) |
+| Wahrnehmung | WN   | Wie gut sind deine Sinne?                         | Schwierigkeit (DEF), Sinnesorgane (RP) |
+
+| Geistig      | Kurz | Beschreibung                             | Weitere Rollen                      |
+| ------------ | ---- | ---------------------------------------- | ----------------------------------- |
+| Willenskraft | WK   | Wie ist deine mentale Stärke?            | Lebenspunkte (DEF), Widerstand (RP) |
+| Weisheit     | WI   | Wie gut kannst du denken?                | (OFF), Lernen (RP)                  |
+| Charisma     | CH   | Wie gut kannst du mit Lebewesen umgehen? | (OFF), Kommunikation (RP)           |
+
+| Weitere      | Kurz | Beschreibung                  | Weitere Rollen |
+| ------------ | ---- | ----------------------------- | -------------- |
+| Lebenspunkte | LP   | Wie gut ist deine Verfassung? |                |
+
+## Eigenschaftsvorschlag :)
 #### Konzentration (KN)
 Wie gut kannst du dich auf eine Aufgabe konzentrieren?
 (Vorschlag für geistige Eigenschaft 🙂)
-
-## Eigenschaftsvorschlag :)
 
 ### Stärke
 Körperlich

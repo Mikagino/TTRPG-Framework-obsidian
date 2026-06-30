@@ -76,7 +76,7 @@ views:
   - type: table
     name: Waffen
     groupBy:
-      property: Gattung
+      property: file.folder
       direction: ASC
     order:
       - file.name

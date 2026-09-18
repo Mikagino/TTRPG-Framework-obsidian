@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.inFolder("TTRPG-Framework/Bases/Armor/Head")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Damage Reduction (DR)
+      - Weight
+      - Cost (Gold)
+      - Effect
+      - Description
+    sort:
+      - property: Weight
+        direction: DESC
+      - property: Damage Reduction (DR)
+        direction: ASC
+      - property: Cost (Gold)
+        direction: ASC
+    columnSize:
+      note.Damage Reduction (DR): 201
+      note.Weight: 124
+      note.Cost (Gold): 127

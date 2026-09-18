@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Damage": "text",
+    "Effect": "multitext",
+    "Difficulty": "number",
+    "Cost (Gold)": "number"
+  }
+}

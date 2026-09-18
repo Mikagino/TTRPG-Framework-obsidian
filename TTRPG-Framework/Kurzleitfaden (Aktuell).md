@@ -3,22 +3,31 @@
 
 ![[Regelwerk/Eigenschaften|Eigenschaften]]
 
+---
 # Bewegung
 
 ![[Regelwerk/Bewegung|Bewegung]]
 
+---
+# Waffen
+![[Waffen]]
+
+---
 # Würfe
 
 ![[Regelwerk/Würfe|Würfe]]
 
+---
 # Kampf
 
 ![[Regelwerk/Kampf|Kampf]]
 
+---
 # Level
 
 ![[Regelwerk/Level|Level]]
 
+---
 # Fertigkeiten
 
 ![[Regelwerk/Fertigkeiten|Fertigkeiten]]

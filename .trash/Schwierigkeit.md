@@ -1,0 +1,1 @@
+Die Schwierigkeit eines Checks wird durch einen Zielwert angegeben. Wenn der Wert erreicht oder übertroffen wird, dann ist der Wurf gelungen.

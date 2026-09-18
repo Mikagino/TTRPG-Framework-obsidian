@@ -26,6 +26,27 @@
 | Weitere      | Kurz | Beschreibung                  | Weitere Rollen |
 | ------------ | ---- | ----------------------------- | -------------- |
 | Lebenspunkte | LP   | Wie gut ist deine Verfassung? |                |
+|              |      |                               |                |
+|              |      |                               |                |
+
+> [!info] Formula
+> **Life Points (LP):** ((WP - 7) / 2) + 16 (rounded up)
+> **Start Gold:** (DEX + CH + WI)
+^formula
+
+
+| WP    | LP  |
+| ----- | --- |
+| 2-3   | 14  |
+| 4-5   | 15  |
+| 6-7   | 16  |
+| 8-9   | 17  |
+| 10-11 | 18  |
+| 12-13 | 19  |
+| 14-15 | 20  |
+| 16-17 | 21  |
+| 18-19 | 22  |
+^LP-Table
 
 ## Eigenschaftsvorschlag :)
 #### Konzentration (KN)
@@ -101,20 +122,35 @@ Für Würfe in speziellen Gebieten bekommt man alle Würfe der verschiedenen Fer
 ## <font color="#c00000">Kampfwahrnehmung (basierend auf WN)</font>
 In einem Kampf muss die Wahrnehmung des anderen übertroffen werden, um zu treffen
 
-| f() Geschick | f() Kampfgeschick    |
-| ------------ | -------------------- |
-|              | $-1$                 |
-| 8            | $20 - 3*Größenstufe$ |
-|              | $+1$                 |
+| f() Geschick | f() Kampfgeschick      |
+| ------------ | ---------------------- |
+|              | $-1$                   |
+| 8            | $20 - 3*"Größenstufe"$ |
+|              | $+1$                   |
 ## <font color="#c00000">Größe</font>
-Größen werden in folgende Kategorien aufgeteilt:
-1. Maus
-2. Hund
-3. Mensch
-4. Pferd
-5. Troll
-6. Drache
-Entsprechend der Differenz zur Stufe des Ziels erhält man $3*Differenz$ Bonus/Malus (Bsp.: Mensch zu Troll sind 2 Stufen, also ein Bonus von $3*2=6$)
+Größen werden in folgende Kategorien aufgeteilt, mit den entsprechenden Punkten zur Verteilung auf Level 0 ($f()=42+Delta*12$).
+1. Maus 18 ($Delta=-2$)
+2. Hund 30 ($Delta=-1$)
+3. Mensch 42
+4. Pferd 54 ($Delta=+1$)
+5. Troll 66 ($Delta=+2$)
+6. Drache 78 ($Delta=+3$)
+7. Berg 90 ($Delta=+4$)
+Entsprechend der Differenz zur Stufe des Ziels erhält man $3*Delta_"Selbst-Ziel"$ Bonus/Malus (Bsp.: Mensch zu Troll sind 2 Stufen, also ein Bonus von $3*2=6$)
+
+### Lebenspunkte
+LP wird durch Größe beeinflusst mit folgender Gleichung. Die Base LP können aus der Tabelle genommen oder berechnet werden. Je nachdem ob die Kreatur größer oder kleiner als ein Mensch ist, wird eine andere Formel für die finale LP verwendet.
+![[Kurzleitfaden (Ideen)#^LP-Table]]
+
+> [!info] LP-Gleichung, je nach Größe
+> $"LP"_"base" = [(("WP" - 8) / 2) + 16 ]$ (rounded up)
+> $"LP"_"bigger"="LP"_"base"*6^("Größe"Delta)$
+> $"LP"_"smaller"="LP"_"base"/(2^("Größe"Delta))$
+
+
+> [!example]
+> Pferd $->$ $16*6^1=96$ usw.
+> Troll $->$ $16*6^2=576$ usw.
 ## <font color="#c00000">Hinterhalt</font>
 Aus dem Hinterhalt anzugreifen senkt die Schwierigkeit von Angriffen um 5
 ## <font color="#c00000">Kritischer Wurf</font>
@@ -126,16 +162,17 @@ Erhöht/Senkt einmalig den Wissenswürfel um eine Stufe (nicht stapelnd)
 In Zoll oder Hexagons, vom vorderen Ende bis zum vorderen Ende der Base gemessen; Fernkampf/AoE trifft, sobald Base teilweise innerhalb der Messung ist; Bewegung ist nur durch Gänge, die breiter als Base sind möglich (meist ~1")
 ## <font color="#c00000">Bewegungsreichweite (BW)</font>
 
-| AG (jeden 2.) | Reichweite in Zoll " (x+4) |
-| ------------- | -------------------------- |
-| 2-3           | 4                          |
-| 5-6           | 5                          |
-| 7-8           | 6                          |
-| 9-10          | 7                          |
-| 11-12         | 8                          |
-| 13-14         | 9                          |
-| 15-16         | 10                         |
-| 17-18         | 11                         |
+| AG (jeden 2.) | Reichweite in Zoll " $(("AG"/2)+2.5+3*Delta_"Relation zu Mensch")$ |
+| ------------- | ------------------------------------------------------------------ |
+| 2-3           | 4                                                                  |
+| 4-5           | 5                                                                  |
+| 6-7           | 6                                                                  |
+| 8-9           | 7                                                                  |
+| 10-11         | 8                                                                  |
+| 12-13         | 9                                                                  |
+| 14-15         | 10                                                                 |
+| 16-17         | 11                                                                 |
+| 18-19         | 12                                                                 |
 ## <font color="#c00000">Erschwerte Bewegung</font>
 Bewegungsdistanz wird halbiert (oder entsprechend Zusatzregel)
 ## <font color="#c00000">Schwieriges Terrain</font>
@@ -163,145 +200,27 @@ Terrain mit Eigenschafts-Label und Schwierigkeit, Bewegung ist erschwert. Beim B
 
 ---
 # Skilltree
-## Talente
+## Talents
 Die 3 höchsten Eigenschaften sind die Talente eines Charakters, bei Gleichstand entscheidet der Spieler und notiert oder markiert diese 3 Eigenschaften. Sobald der Wert einer Eigenschaft die eines Talents um 2 übersteigt wird sie stattdessen zu einem Talent, hierbei zählt nur das wirkliche Level des Charakters,<font color="#c00000"> keine Items o.ä.</font>
 Beim Aufstieg eines Talents erhält der Charakter einen Fähigkeitspunkt (Skillpoint), der zum Freischalten von Fähigkeiten verwendet werden kann (siehe folgende Liste).
 
-## Fähigkeiten (nach Eigenschaft)
-### Stärke
-#### 1
-*Wucht:* Nahkampf: ST-Check erhöht DMG um Differenz; Fernkampf: Ziel dahinter erhält DMG/2 abgerundet, bsp. 3 1 0
-#### 2
-*Muskelprotz:* Stärke steigert schon bei einem Kreuz weniger das Level
-*Hochsprung:* Sprung auf höher gelegenes Gelände um halbe Bewegung; Kampf: halber Schaden auf alle im aktuellen Feld
+---
+# Falldamage
+above 3m -> Meter / 2 * speed
+> [!example]
+> 4m :LiArrowRight: 2DMG
 
+---
+# Easy Weight
+Each item is in a weight class. You can carry one Item above your current weight class. Above that you get DisAdv +1 for each item. You cannot carry items 2 classes above your weight class.
+ST :LiArrowRight: Weight class
+2+   :LiArrowRight: Weightless (Feather)
+5+   :LiArrowRight: Handy (Sword, 1-5kg)
+10+ :LiArrowRight: Balanced (Shovel 5-10kg)
+15+ :LiArrowRight: Massive (Plate armor, 10-50kg)
+25+ :LiArrowRight: Gigantic (Cart, 50+kg)
 
-|     |     |     |
-| --- | --- | --- |
-| 1   |     |     |
-| 2   |     |     |
+---
 
-Wucht
-    ],
-  [],
-  []
-
-)
-
-#levelLine
-#grid(
-  [=== 2],
-  [=== $<$$>$
-    ],
-  [===  (1WP)
-    ],
-  [=== Effektive Wucht (1WP)
-    Spieler entscheidet über Effekt bei Wucht: Schmettern D4, Betäuben D4, Durchschlag D4]
-)
-
-#levelLine
-#grid(
-  [=== 4],
-  [=== $<$Angeberwille$>$
-    Regeneriert WP bei angeberischen/epischen Check]  
-)
-
-#levelLine
-#grid(
-  [=== 6],
-  [=== Letzter Kampf
-    Eine letzte freie Runde nach dem Erhalten des Todesschlags]
-)
-
-\
-#headingLine
-#align(center)[== AG]
-// level 1
-#grid(
-  [=== 1],
-  [=== $<$Flinkheit$>$
-    AG-Checks/Angriffe gegen Spieler um AG/2 aufgerundet erschwert],
-  [=== $<$Schattenschritt$>$
-    Geschaffte AG-Checks gewinnen WN-Duell (Feingespür gleicht aus); im Kampf können Angriffe von hinten durchgeführt werden]
-)
-
-#levelLine
-#grid(
-  [=== 2 ],
-  [=== Bewegungsspezialist (2WP)
-    AG-Check zu gelungenem Check ändern],
-  [=== Weitsprung (1WP)
-    Sprung über halbe Reichweite als Bewegung; Angriff + Bewegung in einer Aktion],
-  [=== Wandlauf (1WP)
-    Lauf von Boden über Wandfeld mit halber Reichweite; Angriff + Bewegung in einer Aktion]
-  )
-
-\
-#headingLine
-#align(center)[== GE]
-// level 1
-#grid(
-  [=== 1],
-  [=== Täuschungsmanöver (1WP)
-    Gegner erhält WN1 auf Reaktion],
-  [=== $<$Präzision$>$
-    Krit. range erhöht $->$ 1-2, 19-20 ???],
-  [=== Konter (1WP)
-    geschaffte Verteidigung in freie Aktion umwandeln],
-  )
-
-// level 2
-#levelLine
-#grid(
-  [=== 2],
-  [=== Effektives Täuschungsmanöver (2WP)
-    Spieler entscheidet über Effekt bei Treffer des Täuschungsmanövers: Bluten 1, Schildbruch 1, Waffenverlust 4],
-  [=== Effektiver Konter (2WP)
-    Spieler entscheidet über Effekt bei geschafftem Konter: Betäubung 1, Schmettern 2, Waffenverlust 3],
-  [=== Flinkhand (1WP)
-    Zwei Aktionen, außer Bewegung, wie eine ausführen, beide mit WN1 (einmal pro Runde); Fernkampf auch im Nahkampf möglich],
-  [],
-  [=== Kombo
-    Checks erhalten einen Würfelvorteil für jeden direkt davor geschafften]
-  )
-  
-// level 3
-#levelLine
-#grid(columns: 5, rows: 1,
-  [=== 4],
-  [=== $<$Tötungswille$>$
-    Bei Verursachen einer tödlichen Wunde regeneriert der Spieler WP entsprechend der Stufe des Ziels/2],
-  [=== $<$Geschickswille$>$
-    Bei geschafftem GE-Check wird WP entsprechend des Erfolgsranges regeneriert (1-3)]
-  )
-  
-\
-#headingLine
-#align(center)[== WN]
-#grid(columns: 5, rows: 1,
-  [=== 1],
-  [=== $<$Feingespür$>$
-    Geschaffte WN-Checks gewinnen AG-Duell (Schattenschritt gleicht aus)]
-  )
-
-\
-#headingLine
-#align(center)[== WI]
-
-\
-#headingLine
-#align(center)[== CH]
-#grid(
-  [=== 1],
-  [=== Betören
-    Ein Ziel betören, erhält also einen Stack an Betören],
-  [=== "Rassen"-freund
-    Checks gegenüber bestimmter Rasse erhalten ???],
-)
-
-== Variabel
-#grid(
-  [=== 1],
-  [=== Körperkontrolle _AG/GE_ | _AG/WN_ | _WN/GE_
-  Checks in den gewählten Eigenschaften können einmal wiederholt werden],
-)
+# Skilltree
+![[Skilltree]]

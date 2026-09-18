@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TTRPG-Framework/Regelwerk/Skilltree.md",
+                "file": "TTRPG-Framework/Kurzleitfaden (Ideen).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Skilltree"
+              "title": "Kurzleitfaden (Ideen)"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +75,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "627f7a89c8bf3c22",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -156,74 +169,74 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTRPG-Framework/Regelwerk/Skilltree.md",
+                "file": "TTRPG-Framework/Kurzleitfaden (Ideen).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Skilltree"
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "609887c61f117490",
+  "active": "1cec4ae2491c1068",
   "lastOpenFiles": [
-    "TTRPG-Framework/Regelwerk/Würfe.md",
-    "TTRPG-Framework/Design Notizen.md",
-    "TTRPG-Framework/Regelwerk/Bewegung.md",
-    "TTRPG-Framework/Kurzleitfaden (Ideen).md",
-    "TTRPG-Framework/Regelwerk/Schwierigkeit.md",
-    "TTRPG-Framework/Regelwerk/Eigenschaften.md",
-    "TTRPG-Framework/Bases/Skills.base",
-    "TTRPG-Framework/Regelwerk/Skilltree.md",
     "TTRPG-Framework/Kurzleitfaden (Aktuell).md",
-    "TTRPG-Framework/Plugins.md",
-    "TTRPG-Framework/Bases/Waffen.base",
-    "TTRPG-Framework/Bases/Waffen/Magie/Feuerball.md",
-    "TTRPG-Framework/Bases/Waffen/Nahkampf/Einhänder/Einhänder.md",
-    "TTRPG-Framework/Bases/Waffen/Magie",
-    "TTRPG-Framework/Bases/Waffen/Fernkampf/Bogen.md",
-    "TTRPG-Framework/Bases/Waffen/Nahkampf/Zweihänder/Zweihänder.md",
-    "TTRPG-Framework/Bases/Waffen/Nahkampf/Beispielwaffe 2.md",
-    "TTRPG-Framework/Bases/Waffen/Fernkampf/Untitled.md",
-    "TTRPG-Framework/Bases/Waffen/Nahkampf/Zweihänder",
-    "TTRPG-Framework/Bases/Waffen/Nahkampf/Einhänder",
-    "TTRPG-Framework/Bases/Waffen/Fernkampf",
-    "TTRPG-Framework/Bases/Waffen/Nahkampf",
-    "Untitled.base",
-    "Untitled 1.base",
-    "TTRPG-Framework/Regelwerk/Fertigkeiten.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 6/<Gesteigerter Wille>.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 4/-- Schmerzenswille --.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 6/+ Untödliche Wunde +.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 4/-- Immunitätswille --.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 6/+ Letzter Kampf +.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 4/<Todeskampf>.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 2/<Berserker>.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 4/Immunitätswille.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 2/<Muskelprotz>.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 4/<\"Effekt\"-Immunität>.md",
-    "TTRPG-Framework/Bases/Skills/Stufe 6",
+    "TTRPG-Framework/Notes/Design Notizen.md",
+    "TTRPG-Framework/Notes",
+    "TTRPG-Framework/Quick Character Guide.md",
+    "TTRPG-Framework/Regelwerk/Waffen.md",
+    "TTRPG-Framework/Bases/Skills/Skill List 1.base",
+    "TTRPG-Framework/Bases/Skills/Drawing 2026-09-18 09.01.56.excalidraw.md",
+    "TTRPG-Framework/Bases/Skills/Skill List 4.base",
+    "TTRPG-Framework/Bases/Weapons/Hybrid Weapons.base",
+    "TTRPG-Framework/Bases/Weapons/Weapons List.md",
+    "TTRPG-Framework/Bases/Armor/Armor List.md",
+    "TTRPG-Framework/Bases/Weapons/Ranged/Two-handed/Bow.md",
+    "TTRPG-Framework/Bases/Weapons/Ranged/One-handed/Wrist Crossbow.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/Two-handed/Zweihänder.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/Two-handed/Warhammer.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/Two-handed/Staff.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/Two-handed/Scythe.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/Two-handed/Halberd.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/Two-handed/Battle Axe.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/One-Handed/Tinkerer's Hammer.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/One-Handed/Stick.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/One-Handed/Sickle.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/One-Handed/Shortsword.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/One-Handed/Rapier.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/One-Handed/Dagger.md",
+    "TTRPG-Framework/Bases/Weapons/Melee/One-Handed/Axe.md",
+    "TTRPG-Framework/Bases/Weapons/Magic/Fireball.md",
+    "TTRPG-Framework/Bases/Weapons/Hybrid/Whip.md",
+    "TTRPG-Framework/Bases/Weapons/Hybrid/Spear.md",
+    "TTRPG-Framework/Bases/Armor/Upper Body Armor.base",
+    "TTRPG-Framework/Bases/Armor/Legs Armor.base",
+    "TTRPG-Framework/Bases/Armor/Head Armor.base",
+    "TTRPG-Framework/Bases/Armor/Full Body Armor.base",
+    "TTRPG-Framework/Bases/Armor/Upper Body/Linen shirt.md",
+    "TTRPG-Framework/Bases/Weapons/Ranged Weapons.base",
+    "TTRPG-Framework/Bases/Weapons/Melee Weapons.base",
     "TTRPG-Framework/Regelwerk/Skills/Untitled.canvas"
   ]
 }

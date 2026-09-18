@@ -1,3 +1,0 @@
-- Excalidraw
-- Banner
-- Icon-Stuff

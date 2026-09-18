@@ -1,0 +1,103 @@
+filters:
+  and:
+    - file.inFolder("TTRPG-Framework/Bases/Weapons/Hybrid")
+formulas:
+  Schadensauswertung: |-
+    [
+      formula.Schadensbereich,
+      ",",
+      (
+        "Ø" + formula["Durchschnittlicher Schaden"].toString()
+      )
+    ]
+  Durchschnittlicher Schaden: |-
+    if(Damage.contains("D"),
+      (
+        if(Damage.split("D")[0] == "",
+          Difficulty/20,
+          number(Damage.split("D")[0])
+        ) * (
+          number(Damage.split("D")[1].split(" ")[0]) / 2 + .5
+        ) + if(Damage.split("D")[1].split(" ")[1] == "+",
+          number(Damage.split("D")[1].split(" ")[2]),
+          if(Damage.split("D")[1].split(" ")[1] == "-",
+            -number(Damage.split("D")[1].split(" ")[2])  * Difficulty / 20,
+            0
+          )
+        )
+      ),
+      number(Damage)
+    )
+  Schadensbereich: |-
+    if(Damage.contains("D"),
+      (
+        (
+          if(Damage.split("D")[0] == "",
+            1,
+            number(Damage.split("D")[0])
+          ) + (
+            if(Damage.split("D")[1].split(" ")[1] == "+",
+              number(Damage.split("D")[1].split(" ")[2]),
+            if(Damage.split("D")[1].split(" ")[1] == "-",
+              -number(Damage.split("D")[1].split(" ")[2]),
+              0
+            ))
+          )
+        ).toString() + (
+          "-"
+        ) + (
+          if(Damage.split("D")[0] == "",
+            1,
+            number(Damage.split("D")[0])
+          ) * (
+            number(Damage.split("D")[1].split(" ")[0])
+          ) + (
+            if(Damage.split("D")[1].split(" ")[1] == "+",
+              number(Damage.split("D")[1].split(" ")[2]),
+            if(Damage.split("D")[1].split(" ")[1] == "-",
+              -number(Damage.split("D")[1].split(" ")[2]),
+              0
+            ))
+          )
+        ).toString()
+      ),
+      number(Damage)
+    )
+properties:
+  formula.Durchschnittlicher Schaden:
+    displayName: Durchschnittlicher Schaden
+  file.name:
+    displayName: Name
+  formula.Schadensauswertung:
+    displayName: Damage-Evaluation
+  note.Attribut:
+    displayName: Eigenschaft
+views:
+  - type: table
+    name: Waffen
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Stat
+      - Difficulty
+      - Damage
+      - Effect
+      - Description
+      - formula.Schadensauswertung
+    sort:
+      - property: Difficulty
+        direction: ASC
+      - property: formula.Schadensauswertung
+        direction: ASC
+      - property: Schaden
+        direction: DESC
+      - property: Attribut
+        direction: DESC
+      - property: formula.Schadensbereich
+        direction: ASC
+    columnSize:
+      note.Stat: 180
+      note.Difficulty: 105
+      note.Effect: 151

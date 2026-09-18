@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiPlug",
+      "LiBubbles",
+      "LiLink",
+      "LiNotebook",
+      "LiNotepadText"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -27,5 +33,30 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "TTRPG-Framework/Bases/Skills/Skill List 4.base": "4️⃣",
+  "TTRPG-Framework/Bases/Skills/Skill List 1.base": "1️⃣",
+  "TTRPG-Framework/Bases/Skills/Skill List 2.base": "2️⃣",
+  "TTRPG-Framework/Bases/Skills/Skill List 6.base": "6️⃣",
+  "TTRPG-Framework/Bases/Armor": "LiShield",
+  "TTRPG-Framework/Bases/Skills": "LiFlaskConical",
+  "TTRPG-Framework/Bases/Weapons": "LiSword",
+  "TTRPG-Framework/Bases/Armor/Full Body": "LiPersonStanding",
+  "TTRPG-Framework/Bases/Armor/Head": "⛑",
+  "TTRPG-Framework/Bases/Armor/Legs": "LiFootprints",
+  "TTRPG-Framework/Bases/Armor/Upper Body": "LiRectangleVertical",
+  "TTRPG-Framework/Regelwerk/Bewegung.md": "LiFootprints",
+  "TTRPG-Framework/Regelwerk/Eigenschaften.md": "LiChartNoAxesColumn",
+  "TTRPG-Framework/Regelwerk/Fertigkeiten.md": "LiStarList",
+  "TTRPG-Framework/Regelwerk/Kampf.md": "LiSwords",
+  "TTRPG-Framework/Regelwerk/Level.md": "LiArrowBigUpDash",
+  "TTRPG-Framework/Regelwerk/Skilltree.md": "LiTrendingUpDown",
+  "TTRPG-Framework/Regelwerk/Waffen.md": "LiSword",
+  "TTRPG-Framework/Regelwerk/Würfe.md": "LiDices",
+  "TTRPG-Framework/Regelwerk": "LiBookOpen",
+  "TTRPG-Framework/Bases": "LiDatabase",
+  "TTRPG-Framework/Notes": "LiNotebook",
+  "TTRPG-Framework/Notes/Nützliche Links.md": "LiLink",
+  "TTRPG-Framework/Notes/Design Notizen.md": "LiBubbles",
+  "TTRPG-Framework/Notes/Plugins.md": "LiPlug"
 }

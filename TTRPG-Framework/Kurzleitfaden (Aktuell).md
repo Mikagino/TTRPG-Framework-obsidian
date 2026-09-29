@@ -1,33 +1,33 @@
 
-# Charakter
+## Charakter
 
 ![[Regelwerk/Eigenschaften|Eigenschaften]]
 
 ---
-# Bewegung
+## Bewegung
 
 ![[Regelwerk/Bewegung|Bewegung]]
 
 ---
-# Waffen
+## Waffen
 ![[Waffen]]
 
 ---
-# Würfe
+## Würfe
 
 ![[Regelwerk/Würfe|Würfe]]
 
 ---
-# Kampf
+## Kampf
 
 ![[Regelwerk/Kampf|Kampf]]
 
 ---
-# Level
+## Level
 
 ![[Regelwerk/Level|Level]]
 
 ---
-# Fertigkeiten
+## Fertigkeiten
 
 ![[Regelwerk/Fertigkeiten|Fertigkeiten]]

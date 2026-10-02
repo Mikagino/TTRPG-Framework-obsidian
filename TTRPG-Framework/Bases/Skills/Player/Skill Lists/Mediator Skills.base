@@ -1,0 +1,26 @@
+filters:
+  and:
+    - file.inFolder("TTRPG-Framework/Bases/Skills/Player/Mediator")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Eigenschaft
+      - Kosten
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: Anfänger
+        direction: DESC
+      - property: Eigenschaft
+        direction: ASC
+    columnSize:
+      file.name: 215
+      note.Anfänger: 703

@@ -29,8 +29,10 @@ Fertigkeiten werden in die 3 Stufen Anfänger (A), Fortgeschritten (F) und Exper
 Der Spieler erhält bei Checks, die mehrere Fertigkeiten verwenden könnten alle Würfel dieser Fertigkeiten.
 >[!example]- Beispiel
 >Faruk lernt Magie als Fertigkeit bis Fortgeschritten, erhält also einen D8 als Bonus. Danach lernt er Kapios auf Anfänger, erhält also einen D4 als Bonus. Somit erhält er beim Zaubern von Kapios den D8 für Grundlagen Magie **und** den D4 für die Spezifizierung Kapios.
+
 ## Passive Fertigkeiten
 Fertigkeiten, die immer aktiv sind und durch Umstände ausgelöst werden oder bestimmte passive Effekte besitzen werden durch <...> symbolisiert.
+
 ## Passives leveln
 Durch aktives lernen, mithilfe eines Buches oder Lehrmeisters, kann eine Fertigkeit aufgelevelt werden. Aber man lernt nicht nur durch stupides durchforsten von Lehrbüchern, sondern auch durch Anwendung. Sobald ein Spieler eine Eigenschaft levelt, zu die er eine Fertigkeit besitzt, kann dieser die Hälfte des neuen Eigenschaftswert (aufgerundet) vom Aufwand zur nächsten Stufe einer Eigenschaft abziehen.
 > [!Example] 

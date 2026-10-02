@@ -1,11 +1,9 @@
 
 ## Distanzmessung
-
 In Zoll oder Hexagons, vom vorderen Ende bis zum vorderen Ende der Base gemessen; Fernkampf/AoE trifft, sobald Base teilweise innerhalb der Messung ist; Bewegung ist nur durch Gänge, die breiter als Base sind möglich (meist ~1").
 1 Zoll = 1 Meter
 
 ## Bewegung (BW)
-
 Wie weit eine Entität sich in einer Ak bewegen kann.
 
 | AG (jeden 2.) | Reichweite in Zoll " (x+4) |

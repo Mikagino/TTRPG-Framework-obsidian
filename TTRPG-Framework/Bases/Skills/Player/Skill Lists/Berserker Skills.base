@@ -1,0 +1,28 @@
+filters:
+  and:
+    - file.inFolder("TTRPG-Framework/Bases/Skills/Player/Berserker")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Eigenschaft
+      - Kosten
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    sort:
+      - property: Kosten
+        direction: ASC
+      - property: Eigenschaft
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 215
+      note.Kosten: 48
+      note.Anfänger: 363
+      note.Fortgeschritten: 349

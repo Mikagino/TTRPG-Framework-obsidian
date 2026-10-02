@@ -39,3 +39,7 @@ Der Test muss größer oder gleich dieser Zahl sein, um zu gelingen.
 Wenn einem Anderen bei einer Aktion geholfen wird, erhält er Adv1 (der Helfer muss auch würfeln).
 ## Freie Aktion
 Im Kampf hat jeder Spieler und die meisten Gegner 3 Aktionen, manche [[Fertigkeiten]] verleihen freie Aktion/en. Sie gelten als weitere Aktionen, kosten also keine zusätzliche Aktion beim Ausführen.
+## Erfolgsränge
+Ein geschaffter Check heißt nicht einfach, dass er geschafft ist. Alle 5 Punkte über der Schwierigkeit, steigt der Erfolgsrang um 1. Dieser ist teilweise wichtig für spezielle Effekte und kann ggf. auch stärkere Auswirkung haben, je nach Entscheidung des DM.
+> [!Example]
+> Inara wirft bei ihrem GE-Check eine 28, bei einer Schwierigkeit von 20 ist das ein Erfolgsrang von 1. Wenn sie die Fertigkeit [[-- Geschickswille --]] hat, heilt sie somit um 1 LP. 

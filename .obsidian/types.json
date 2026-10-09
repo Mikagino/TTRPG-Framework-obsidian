@@ -6,6 +6,7 @@
     "Damage": "text",
     "Effect": "multitext",
     "Difficulty": "number",
-    "Cost (Gold)": "number"
+    "Cost (Gold)": "number",
+    "Eigenschaft": "multitext"
   }
 }

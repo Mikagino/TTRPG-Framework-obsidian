@@ -1,0 +1,14 @@
+ /* Set a specific height for all Dataview table rows */
+.table-view-table tr,
+.dataview.table-view-table td,
+.dataview.table-view-table th {
+    height: 30px !important; /* Adjust the height value as needed */
+    vertical-align: middle; /* Optional: Aligns content vertically in the middle */
+}
+
+/* Optional: Prevents text from wrapping if the height is fixed and content is long */
+.dataview.table-view-table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds "..." to truncated text */
+}

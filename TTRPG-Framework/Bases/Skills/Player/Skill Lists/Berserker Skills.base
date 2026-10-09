@@ -44,3 +44,27 @@ views:
     columnSize:
       file.name: 215
       note.Anfänger: 204
+  - type: cards
+    name: Cards
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    cardSize: 350
+  - type: cms
+    name: CMS
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    wrapPropertyText: true
+    propertyLabels: inline
+    showTags: false
+    cardSize: 400

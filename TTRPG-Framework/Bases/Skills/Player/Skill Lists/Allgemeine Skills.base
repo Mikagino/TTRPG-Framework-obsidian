@@ -45,3 +45,13 @@ views:
     columnSize:
       file.name: 215
       note.Anfänger: 204
+  - type: cms
+    name: CMS
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    cardSize: 250
+    wrapPropertyText: false

@@ -1,0 +1,25 @@
+/* Remove title - This makes it easier to style documents and use embedding for small snippets */
+div.markdown-embed-title {
+    display: none;
+}
+
+/* Remove border and margin to make content look inlined. */
+.markdown-preview-view .markdown-embed {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.markdown-embed-content .markdown-preview-view {
+    /* Avoid vertical scroll. Seems to cause lots of extraneous vertical whitespace? */
+    /*max-height: unset;*/
+
+    /* Avoid content appearing indented. */
+    padding: 0;
+}
+
+/* Position the anchor image better to avoid overlapping text. */
+.markdown-embed-link, .file-embed-link {
+    top: 20px;
+    right: -50px;
+}

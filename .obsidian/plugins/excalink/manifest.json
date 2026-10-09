@@ -1,0 +1,13 @@
+{
+	"id": "excalink",
+	"name": "Excalink",
+	"version": "1.2.0",
+	"minAppVersion": "0.15.0",
+	"description": "Suggests and links the named frames and groups inside your Excalidraw drawings when typing [[filename# in the editor.",
+	"author": "Aarambha",
+	"authorUrl": "https://github.com/AarambhaAnta",
+	"fundingUrl": {
+		"Github Sponsor": "https://github.com/sponsors/AarambhaAnta"
+	},
+	"isDesktopOnly": false
+}

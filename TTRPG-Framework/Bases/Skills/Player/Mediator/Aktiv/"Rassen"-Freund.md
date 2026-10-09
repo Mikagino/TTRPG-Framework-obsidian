@@ -1,8 +1,8 @@
 ---
 Eigenschaft: CH
-Anfänger: Bei Checks gegenüber "Rasse" wird CH doppelte verrechnet
-Fortgeschritten:
-Experte:
+Anfänger: 'A: Bei Checks gegenüber "Rasse" wird CH doppelte verrechnet'
+Fortgeschritten: "F: -"
+Experte: "X: -"
 Kosten:
 Category:
 ---

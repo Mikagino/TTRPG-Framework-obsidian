@@ -1,0 +1,49 @@
+filters:
+  and:
+    - file.inFolder("TTRPG-Framework/Bases/Skills/Player/Assassine")
+views:
+  - type: notion-board
+    name: Notion Board
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    boardColumnWidth: large
+    openMode: panel
+    pinnedColors: []
+    pillProperties:
+      - Eigenschaft
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Eigenschaft
+      - Kosten
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    sort:
+      - property: Eigenschaft
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 215
+      note.Anfänger: 363
+  - type: cards
+    name: View
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    cardSize: 800

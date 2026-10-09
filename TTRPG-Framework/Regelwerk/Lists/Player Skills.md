@@ -7,7 +7,7 @@
 ![[Assassine Skills.base]]
 
 ## Berserker
-![[Berserker Skills.base]]
+![[Berserker Skills.base|5000]]
 
 ## Gelehrter
 ![[Gelehrter Skills.base]]

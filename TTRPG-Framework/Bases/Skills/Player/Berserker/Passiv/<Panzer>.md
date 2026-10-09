@@ -1,8 +1,8 @@
 ---
 Eigenschaft: WK
-Anfänger: Increase SR by 1
-Fortgeschritten: Increase SR by 2
-Experte: Increase SR by 3
+Anfänger: "A: Increase SR by 1"
+Fortgeschritten: "F: -"
+Experte: "X: -"
 Kosten: "-"
 Category: "[[Berserker Skills.base]]"
 ---

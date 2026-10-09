@@ -2,6 +2,28 @@ filters:
   and:
     - file.inFolder("TTRPG-Framework/Bases/Skills/Player/Kämpfer")
 views:
+  - type: notion-board
+    name: Notion Board
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    pillProperties:
+      - Eigenschaft
+    boardColumnWidth: large
+    pinnedColors:
+      - x=gray
+      - GE=orange
+      - ST=red
+      - WN=blue
+      - CH=pink
+      - WI=purple
+      - WK=brown
   - type: table
     name: Table
     groupBy:
@@ -21,4 +43,4 @@ views:
         direction: ASC
     columnSize:
       file.name: 215
-      note.Anfänger: 703
+      note.Anfänger: 204

@@ -25,14 +25,12 @@
             "id": "383cc0d34efae9dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "TTRPG-Framework/Regelwerk/Lists/Player Skills.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/InkSymbols/InkHeart_edit.png"
               },
-              "icon": "lucide-file",
-              "title": "Player Skills"
+              "icon": "lucide-image",
+              "title": "InkHeart_edit"
             }
           }
         ],
@@ -183,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTRPG-Framework/Regelwerk/Lists/Player Skills.md",
+                "file": "Excalidraw/InkSymbols/InkHeart_edit.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,13 +213,16 @@
   },
   "active": "383cc0d34efae9dc",
   "lastOpenFiles": [
+    "InkHeart_edit_0.png",
+    "InkHeart_edit.png",
+    "TTRPG-Framework/Regelwerk/Lists/Player Skills.md",
+    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Allgemeine Skills.base",
     "TTRPG-Framework/Bases/Skills/Player/Kämpfer/Passiv/-- Geschickswille --.md",
     "TTRPG-Framework/Bases/Skills/Player/Allgemein/Passiv/<\"Eigenschaft\"-Präzision>.md",
     "TTRPG-Framework/Bases/Skills/Player/Assassine/Aktiv/Bewegungsspezialist.md",
     "TTRPG-Framework/Bases/Skills/Player/Berserker/Aktiv/Hochsprung.md",
     "TTRPG-Framework/Bases/Skills/Player/Assassine/Passiv/null.md",
     "TTRPG-Framework/Bases/Skills/Player/Assassine/Aktiv/Wandlauf.md",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Allgemeine Skills.base",
     "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Berserker Skills.base",
     "Excalidraw/InkSymbols/InkSword2_edit.png",
     "Excalidraw/InkSymbols/InkShield_edit.png",
@@ -231,7 +232,6 @@
     "Excalidraw/InkSymbols/InkDagger_edit.png",
     "Excalidraw/InkSymbols/InkCrossbow_edit.png",
     "Excalidraw/InkSymbols/InkAxe_edit.png",
-    "TTRPG-Framework/Regelwerk/Lists/Player Skills.md",
     "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Ranger Skills.base",
     "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Mediator Skills.base",
     "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Kämpfer Skills.base",
@@ -254,7 +254,6 @@
     "Excalidraw/Kosten/LP1.excalidraw.md",
     "Excalidraw/Kosten/LP0.excalidraw.md",
     "Excalidraw/InkSymbols/InkHeart_final.svg",
-    "Excalidraw/InkSymbols/InkHeart_edit.png",
     "Excalidraw/Eigenschaften/Charisma.excalidraw.md",
     "Excalidraw/Eigenschaften/Weisheit.excalidraw.md",
     "Excalidraw/Eigenschaften/Wahrnehmung.excalidraw.md",

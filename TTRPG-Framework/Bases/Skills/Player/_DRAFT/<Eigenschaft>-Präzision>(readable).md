@@ -1,5 +1,5 @@
 ---
-Category: "[[Allgemeine Skills.base]]"
+Category: "[[Draft]]"
 Anfänger: --
 Fortgeschritten: --
 Experte: --

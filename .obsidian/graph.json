@@ -1,17 +1,17 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:TTRPG-Framework/Bases/Weapons  ",
+      "query": "path: \".base\"",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 10108019
       }
     },
     {
@@ -22,14 +22,28 @@
       }
     },
     {
-      "query": "path:TTRPG-Framework/Bases/Skills  ",
+      "query": "path:TTRPG-Framework/Bases/Weapons  ",
       "color": {
         "a": 1,
         "rgb": 9182389
       }
     },
     {
-      "query": "path:TTRPG-Framework/Regelwerk  ",
+      "query": "tag:#Aktiv  ",
+      "color": {
+        "a": 1,
+        "rgb": 3579152
+      }
+    },
+    {
+      "query": "tag:#Passiv  ",
+      "color": {
+        "a": 1,
+        "rgb": 540164
+      }
+    },
+    {
+      "query": "path:TTRPG-Framework/Regelwerk",
       "color": {
         "a": 1,
         "rgb": 1027522
@@ -38,14 +52,14 @@
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -1.5,
-  "nodeSizeMultiplier": 2.17179259259259,
-  "lineSizeMultiplier": 1.89158518518519,
-  "collapse-forces": false,
-  "centerStrength": 0.504098765432099,
-  "repelStrength": 15.0274639859053,
+  "textFadeMultiplier": -2.5,
+  "nodeSizeMultiplier": 2.61702716049383,
+  "lineSizeMultiplier": 2.21292839506173,
+  "collapse-forces": true,
+  "centerStrength": 0.356444444444444,
+  "repelStrength": 15.869001969116,
   "linkStrength": 1,
-  "linkDistance": 148,
+  "linkDistance": 383,
   "scale": 0.23388712837041137,
-  "close": true
+  "close": false
 }

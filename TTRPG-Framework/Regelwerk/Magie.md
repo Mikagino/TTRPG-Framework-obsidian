@@ -1,0 +1,1 @@
+Eine magische Kraft, die dem Nutzer unglaubliche Fähigkeiten verleiht, um die Kräfte der Natur, Wesen und weiteres zu kontrollieren. Je nachdem, wie Magie gelernt wurde, ist man

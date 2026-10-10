@@ -17,6 +17,9 @@ views:
       - Anfänger
       - Fortgeschritten
       - Experte
+    sort:
+      - property: Eigenschaft
+        direction: ASC
     wrapPropertyText: true
     propertyLabels: inline
     showTags: false

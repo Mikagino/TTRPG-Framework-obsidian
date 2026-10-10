@@ -2,6 +2,27 @@ filters:
   and:
     - file.inFolder("TTRPG-Framework/Bases/Skills/Player/Ranger")
 views:
+  - type: cms
+    name: CMS
+    groupBy:
+      property: tags
+      direction: ASC
+    groupOrder:
+      - - "#Aktiv"
+      - - "#Passiv"
+      - - "#Passiv"
+        - "#Aktiv"
+      - 
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    wrapPropertyText: true
+    propertyLabels: inline
+    showTags: false
+    cardSize: 400
   - type: notion-board
     name: Notion Board
     groupBy:
@@ -44,3 +65,15 @@ views:
     columnSize:
       file.name: 215
       note.Anfänger: 204
+  - type: cards
+    name: Cards
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    cardSize: 350

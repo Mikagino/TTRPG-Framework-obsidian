@@ -1,7 +1,3 @@
----
-cssclasses:
----
-
 
 ## Allgemein
 ![[Allgemeine Skills.base]]
@@ -11,7 +7,7 @@ cssclasses:
 ![[Assassine Skills.base]]
 
 ## Berserker
-![[Berserker Skills.base#Cards]]
+![[Berserker Skills.base]]
 
 ## Gelehrter
 ![[Gelehrter Skills.base]]

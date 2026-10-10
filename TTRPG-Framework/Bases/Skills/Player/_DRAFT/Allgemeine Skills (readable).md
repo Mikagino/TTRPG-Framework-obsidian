@@ -1,1 +1,1 @@
-![[<"Eigenschaft"-Präzision>(readable)]]
+![[<Eigenschaft>-Präzision>(readable)]]

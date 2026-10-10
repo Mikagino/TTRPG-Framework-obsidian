@@ -5,7 +5,8 @@ cssclasses:
 
 
 ## Berserker
-![[Berserker Skills.base#CMS]]
+![[Allgemeine Skills.base#CMS Berserker]]
+
 
 ## Gelehrter
 ![[Gelehrter Skills.base]]

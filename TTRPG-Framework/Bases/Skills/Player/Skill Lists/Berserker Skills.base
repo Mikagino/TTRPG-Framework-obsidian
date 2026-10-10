@@ -2,6 +2,25 @@ filters:
   and:
     - file.inFolder("TTRPG-Framework/Bases/Skills/Player/Berserker")
 views:
+  - type: cms
+    name: CMS
+    groupBy:
+      property: tags
+      direction: ASC
+    groupOrder:
+      - - "#Aktiv"
+      - - "#Passiv"
+      - 
+    order:
+      - file.name
+      - Eigenschaft
+      - Anfänger
+      - Fortgeschritten
+      - Experte
+    wrapPropertyText: true
+    propertyLabels: inline
+    showTags: false
+    cardSize: 400
   - type: notion-board
     name: Notion Board
     groupBy:
@@ -56,15 +75,3 @@ views:
       - Fortgeschritten
       - Experte
     cardSize: 350
-  - type: cms
-    name: CMS
-    order:
-      - file.name
-      - Eigenschaft
-      - Anfänger
-      - Fortgeschritten
-      - Experte
-    wrapPropertyText: true
-    propertyLabels: inline
-    showTags: false
-    cardSize: 400

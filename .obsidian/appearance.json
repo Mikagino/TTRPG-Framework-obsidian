@@ -1,5 +1,7 @@
 {
   "enabledCssSnippets": [
-    "cms-formatting"
+    "embed-fully",
+    "hide-header",
+    "no-header"
   ]
 }

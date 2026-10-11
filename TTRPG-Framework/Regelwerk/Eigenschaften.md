@@ -35,7 +35,7 @@ Besondere Eigenschaften werden aus den Grundeigenschaften ermittelt.
 | Ausweichen (AW)   | Wie gut weichst du automatisch in Kämpfen aus? | $("GE" + "WN") / 3 + 12$ (aufgerundet) |
 ^formula
 
-Hier Beispiele für LP, ohne die obere Formel zu verwenden.
+Hier eine Tabelle um LP, ohne die obere Formel zu ermitteln.
 
 | WK    | LP  |
 | ----- | --- |
@@ -49,6 +49,8 @@ Hier Beispiele für LP, ohne die obere Formel zu verwenden.
 | 16-17 | 21  |
 | 18-19 | 22  |
 ^LP-Table
+
+Hier eine Tabelle, um AW zu ermitteln, indem WN und GE zusammengerechnet wird.
 
 | $"WN"+"GE"$ | AW  |
 | ----------- | --- |

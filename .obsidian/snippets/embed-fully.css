@@ -12,7 +12,7 @@ div.markdown-embed-title {
 
 .markdown-embed-content .markdown-preview-view {
     /* Avoid vertical scroll. Seems to cause lots of extraneous vertical whitespace? */
-    /*max-height: unset;*/
+    max-height: 1000;
 
     /* Avoid content appearing indented. */
     padding: 0;

@@ -4,11 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5ad6c9aef27910b9",
+        "id": "a6c65d1e2fecec2a",
         "type": "tabs",
         "children": [
           {
-            "id": "0a425556d60c9c9d",
+            "id": "383cc0d34efae9dc",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Berserker Skills.base",
+                "viewName": "CMS"
+              },
+              "icon": "lucide-blocks",
+              "title": "Berserker Skills"
+            }
+          },
+          {
+            "id": "9d99a08bc15bbcab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +34,8 @@
               "title": "Magie"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,44 +212,44 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "0a425556d60c9c9d",
+  "active": "9d99a08bc15bbcab",
   "lastOpenFiles": [
-    "TTRPG-Framework/Regelwerk/Würfe.md",
-    "TTRPG-Framework/Bases/Skills/Creatures/Mountain/Felssturz.md",
+    "TTRPG-Framework/Regelwerk/Kampf.md",
+    "TTRPG-Framework/Regelwerk/Fertigkeiten.md",
+    "TTRPG-Framework/Regelwerk/Eigenschaften.md",
+    "TTRPG-Framework/Regelwerk/Level.md",
+    "TTRPG-Framework/Regelwerk/Waffen.md",
     "TTRPG-Framework/Regelwerk/Skilltree.md",
-    "TTRPG-Framework/Bases/Skills/Player/_DRAFT/Todeskampf.md",
-    "TTRPG-Framework/Bases/Skills/Player/_DRAFT/<Eigenschaft>-Präzision>(readable).md",
-    "TTRPG-Framework/Bases/Skills/Player/_DRAFT/Allgemeine Skills (readable).md",
-    "TTRPG-Framework/Regelwerk/Lists/Armor List.md",
-    "TTRPG-Framework/Regelwerk/Magie.md",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Gelehrter Skills.base",
-    "TTRPG-Framework/Bases/Skills/Player/Ranger/Passiv/Körperkontrolle.md",
-    "TTRPG-Framework/Bases/Skills/Player/Ranger/Passiv/Feingespür.md",
+    "TTRPG-Framework/Regelwerk/Lists/Player Skills.md",
+    "snippets (1)/embed-fully.css",
+    "snippets (1)/wrap-base-multiline.css",
+    "snippets (1)/fixed-card-size.css",
+    "snippets (1)/cms-formatting.css",
+    "snippets (1)/clean-embeds.css",
+    "snippets (1)",
+    "snippets/embed-fully.css",
+    "snippets/wrap-base-multiline.css",
+    "snippets/fixed-card-size.css",
+    "snippets/cms-formatting.css",
     "TTRPG-Framework/Bases/Skills/Player/Mediator/Passiv/<Rassen>-Freund.md",
     "TTRPG-Framework/Bases/Skills/Player/Mediator/Aktiv/Charismatische Präsenz.md",
+    "TTRPG-Framework/Bases/Skills/Player/Berserker/Aktiv/Mächtige Präsenz.md",
+    "TTRPG-Framework/Regelwerk/Magie.md",
+    "TTRPG-Framework/Regelwerk/Lists/Armor List.md",
+    "TTRPG-Framework/Bases/Skills/Player/Allgemein/Passiv/<Eigenschaft>-Präzision.md",
+    "TTRPG-Framework/Bases/Skills/Player/_DRAFT/Allgemeine Skills (readable).md",
+    "TTRPG-Framework/Bases/Skills/Player/_DRAFT/<Eigenschaft>-Präzision>(readable).md",
+    "TTRPG-Framework/Bases/Skills/Player/_DRAFT/Todeskampf.md",
+    "TTRPG-Framework/Bases/Skills/Player/Ranger/Passiv/Körperkontrolle.md",
+    "TTRPG-Framework/Bases/Skills/Player/Ranger/Passiv/Feingespür.md",
     "TTRPG-Framework/Bases/Skills/Player/Mediator/Aktiv/Betören.md",
+    "TTRPG-Framework/Bases/Skills/Player/Mediator/Aktiv/<Rassen>-Freund.md",
     "TTRPG-Framework/Bases/Skills/Player/Kämpfer/Passiv/Kombo.md",
     "TTRPG-Framework/Bases/Skills/Player/Kämpfer/Passiv/Kampfeswille.md",
     "TTRPG-Framework/Bases/Skills/Player/Kämpfer/Passiv/Geschickswille.md",
     "TTRPG-Framework/Bases/Skills/Player/Kämpfer/Aktiv/Täuschungsmanöver.md",
     "TTRPG-Framework/Bases/Skills/Player/Kämpfer/Aktiv/Konter.md",
     "TTRPG-Framework/Bases/Skills/Player/Heiler/Aktiv/Erste Hilfe.md",
-    "TTRPG-Framework/Bases/Skills/Player/Gelehrter/Passiv/Bücherwurm.md",
-    "TTRPG-Framework/Bases/Skills/Player/Berserker/Passiv/Überwille.md",
-    "TTRPG-Framework/Bases/Skills/Player/Berserker/Passiv/Schmerzenswille.md",
-    "TTRPG-Framework/Bases/Skills/Player/Berserker/Passiv/Panzer.md",
-    "TTRPG-Framework/Bases/Skills/Player/Berserker/Passiv/Berserker.md",
-    "TTRPG-Framework/Bases/Skills/Player/Berserker/Passiv/Angeberwille.md",
-    "TTRPG-Framework/Bases/Skills/Player/Berserker/Passiv/<Effekt>-Resistenz.md",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Ranger Skills.base",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Mediator Skills.base",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Kämpfer Skills.base",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Heiler Skills.base",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Berserker Skills.base",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Assassine Skills.base",
-    "TTRPG-Framework/Bases/Skills/Player/Skill Lists/Allgemeine Skills.base",
-    "TTRPG-Framework/Bases/Skills/Player/Mediator/Passiv",
-    "TTRPG-Framework/CSS/clean-embeds.css",
     "Excalidraw/InkSymbols/InkHeart_edit.png",
     "InkHeart_edit_0.png",
     "InkHeart_edit.png",
